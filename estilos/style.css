@@ -208,6 +208,10 @@ div.video-container iframe {
   overflow: hidden;
   border-radius: 8px;
 }
+details.descricao a {
+  color: var(--destaque);
+  text-decoration: none;
+}
 footer {
   background-color: var(--destaque);
   color: var(--texto-inverso);
