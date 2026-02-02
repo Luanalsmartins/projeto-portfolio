@@ -208,9 +208,15 @@ div.video-container iframe {
   overflow: hidden;
   border-radius: 8px;
 }
+details.descricao summary:hover {
+  font-weight: bold;
+}
 details.descricao a {
   color: var(--destaque);
   text-decoration: none;
+}
+details.descricao a:hover {
+  font-weight: bold;
 }
 footer {
   background-color: var(--destaque);
